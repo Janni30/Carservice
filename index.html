@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="Home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Document</title> 
+</head>
+<body> 
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav">
+    <div class="container-fluid">
+   <a class="navbar-brand" href="" id="head"><h2 style="color: #1E69B8;">JK CARSERVICE</h2></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html" id="navi">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="service.html" id="navi">SERVICE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="Galleries.html" id="navi">GALLERIES</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html" id="navi">ABOUT</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link active" href="appointment.html" id="navi">APPOINTMENT</a>
+          </li> 
+        </ul>
+      </div>
+    </div>
+  </nav>
+<br><br>
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="5000">
+        <img src="https://quanticalabs.com/Carservice/Template/images/slider/image_01.jpg" class="d-block w-100" alt="shop1" >
+        <div class="carousel-caption">
+        <h3 id="caro" class="animated bounceInRight" style="animation-delay: 1s " ><b> MAKE YOUR CAR LAST LONGER</b></h3> 
+        <p id="carou" class="animated bounceInLeft d-none d-md-block" style="animation-delay: 2s"><b>Free oil change, April 15. Only if you have a "5" on your license plate</b></p>
+     <p id="ca" class="animated bounceInRight" style="animation-delay: 3s"> <a href="http://127.0.0.1:5500/appointment.html"><button type="submit" class="btn btn-primary" style="height: 50px; width: 190px;background: #1E69B8;font-size: 14px;cursor: pointer;line-height: normal;letter-spacing: 1px; box-shadow: 2px 2px 2px black;margin-bottom: 90px;">APPOINTMENT</button></a></p>
+      </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="7000">
+        <img src="https://quanticalabs.com/Carservice/Template/images/slider/image_02.jpg" class="d-block w-100" alt="shop2">
+        <div class="carousel-caption">
+          <h3 id="caro" class="animated bounceInRight" style="animation-delay: 1s"><b>FIND THE TIRES THAT MATCH YOUR NEEDS</b></h3> 
+          <p id="carou" class="animated bounceInLeft d-none d-md-block" style="animation-delay: 2s"><b>Take advantage of our lowest prices which automatically include coupons.</b></p>
+       <p  id="ca" class="animated bounceInRight" style="animation-delay: 3s"> <a href="http://127.0.0.1:5500/appointment.html"><button type="submit" class="btn btn-primary" style="height: 50px; width: 190px;background: #1E69B8;font-size: 14px;cursor: pointer;line-height: normal;letter-spacing: 1px; box-shadow: 2px 2px 2px black;margin-bottom: 90px;">APPOINTMENT</button></a></p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="7000">
+        <img src="https://quanticalabs.com/Carservice/Template/images/slider/image_03.jpg" class="d-block w-100" alt="shop3">
+        <div class="carousel-caption">
+          <h3 id="caro" class="animated bounceInRight" style="animation-delay: 1s;"><b>EXPERT TECHNICIANS, COMPETITIVE PRICES</b></h3> 
+          <p id="carou" class="animated bounceInLeft d-none d-md-block" style="animation-delay: 2s"><b>We are committed to earning your trust by providing the expertise and value you expect.</b></p>
+       <p  id="ca" class="animated bounceInRight" style="animation-delay: 3s"> <a href="http://127.0.0.1:5500/appointment.html"><button type="submit" class="btn btn-primary" style="height: 50px; width: 190px;background: #1E69B8;font-size: 14px;cursor: pointer;line-height: normal;letter-spacing: 1px; box-shadow: 2px 2px 2px black;margin-bottom: 90px;">APPOINTMENT</button></a></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+   <br><br>
+   <p style="text-align: center;font-weight: lighter; font-size: xx-large;">MAKE AN APPOINTMENT NOW WITH OUR ONLINE FORM </p>
+
+
+<br><p style="text-align: center;color: blue;font-size: 25px;">WHY CHOOSE US?</p>
+ <center><hr style="color: rgb(19, 19, 232);"></center>
+<p style="text-align: center;font-size: 20px;">We are one of the leading auto repair shops serving customers in Tucson.
+  <br>All mechanic services are performed by highly qualified mechanics.</p>
+<br><br><br>
+
+  <div class="container-fluid" style="background-color: #F5F5F5;">
+    <div class="row" id="every"> 
+      <div class="col-md-1"></div>
+      <div class="col-md-2">
+  <div class="card" style="width: 18rem;">
+    <img src="https://vectorified.com/images/spare-parts-icon-19.png" class="card-img-top" alt="..." >
+    <div class="card-body">
+      <p class="card-text" style="text-align: center;">EVERY JOB IS PERSONAL</p>
+      <center><hr></center>
+      <p style="text-align: center;">
+        If you want the quality you would expect from the dealership, but with a more personal and friendly atmosphere, you have found it.</p>
+    </div></div></div>
+<div class="col-md-2"></div>
+    <div class="col-md-2">
+    <div class="card" style="width: 18rem;">
+      <img src="https://vectorified.com/images/spare-parts-icon-19.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text" style="text-align: center;">BEST MATERIALS</p>
+        <center><hr></center>
+        <p style="text-align: center;">We have invested in all the latest specialist tools and diagnostic software that is specifically tailored for the software in your vehicle.</p>
+      </div></div></div>
+       <div class="col-md-2"></div>
+      <div class="col-md-2">
+      <div class="card" style="width: 18rem;">
+        <img src="https://vectorified.com/images/spare-parts-icon-19.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;">PROFESSIONAL STANDARDS</p>
+          <center><hr></center>
+          <p style="text-align: center;">Our auto repair shop is capable of servicing a variety of models. We only do the work that is needed to fix your problem.
+          </div> </div></div></div> <br><br>
+            
+<!-- <button style="font-weight: lighter;margin-left: 500px; font-size: 17px;align-items:center;box-shadow:3px;padding: 10px;border-radius: 8%; background-color: #1A5CA2;color: white;">READ MORE</button> -->
+<br><br>
+<br><br>
+
+<div class="container-fluid" style="background-color: #F5F5F5;">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="https://quanticalabs.com/Carservice/Template/images/samples/960x680/image_01.jpg" class="card-img-top" alt="..."> 
+    </div>
+  <div class="col-md-6">
+  <h2 id="vehi"> VEHICLES SERVICED</h2>
+  <!-- <hr style=""> -->
+<br><br>
+<p><ul id="veh"><li>We provide top notch maintenance service for all types of vehicles. </li><br>
+<li>We are certified to service and repair the following makes:</li></ul></p> <br><br>
+<div class="row" id="ve">
+  <div class="col-md-4">
+<i class="fa fa-check" aria-hidden="true" style="color: blue;"> </i>&nbsp;General Motors 
+<br><i class="fa fa-check" aria-hidden="true" style="color: blue;"> </i>&nbsp;Land Rover <br>
+<i class="fa fa-check" aria-hidden="true" style="color: blue; "> </i>&nbsp;Lexus <br>
+<i class="fa fa-check" aria-hidden="true" style="color: blue;"> </i>&nbsp;Mazda <br>
+  </div>
+<div class="col-md-4">
+<i class="fa fa-check" aria-hidden="true" style="color: blue;"> </i>&nbsp;Mercedes-Benz 
+<br><i class="fa fa-check" aria-hidden="true" style="color: blue;"> </i>&nbsp;Mercury <br>
+<i class="fa fa-check" aria-hidden="true" style="color: blue;"> </i>&nbsp;Mitsubishi  <br>
+ <i class="fa fa-check" aria-hidden="true" style="color: blue;"> </i>&nbsp;Renault <br>
+</div>
+<div class="col-md-4">
+<i class="fa fa-check" aria-hidden="true" style="color: blue;"> </i>&nbsp;Plymouth 
+<br><i class="fa fa-check" aria-hidden="true" style="color: blue;"> </i>&nbsp;Pontiac Porsche <br> 
+<i class="fa fa-check" aria-hidden="true" style="color: blue;"> </i>&nbsp;Rover <br>
+<i class="fa fa-check" aria-hidden="true" style="color: blue;;"> </i>&nbsp;Saab <br>
+</div>
+</div> 
+<br><br>
+<center> <a href="http://127.0.0.1:5500/Galleries.html"><button type="submit" class="btn btn-primary" style="height: 50px; width: 190px;background: #1E69B8;font-size: 14px;cursor: pointer;line-height: normal;letter-spacing: 1px; box-shadow: 2px 2px 2px black;">VIEW LIST</button></a></center>
+
+  </div>
+  </div>
+</div><br><br><br><br>
+      
+<h2 style="text-align: center;" >AUTO REPAIR SERVICES</h2>
+<center><hr></center>
+
+<p style="text-align: center;font-size: 20px;">We offer a full range of garage services to vehicle owners located in Tucson area.
+ <br> Our professinals know how to handle a wide range of car services.</p><br><br>
+
+ <div class="container-fluid">
+  <div class="row" id="mar">
+    <div class="col-md-2"></div>
+    <div class="col-md-3">
+      <img src="https://tse2.mm.bing.net/th?id=OIP.gOqMhf9q1v-5lanFakJspgHaEK&pid=Api&P=0&h=180" alt="" height="180" width="320" style="filter: drop-shadow(5px 5px 5px black);"> <br><br>
+      <h4>ENGINE DIAGNOSTICS</h4>
+    </div>
+    <div class="col-md-3">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.eQ5vx1HwyfsEc21anSBXYwHaD3&pid=Api&P=0&h=180" alt="" height="180" width="320" style="filter: drop-shadow(5px 5px 5px black);"> <br><br>
+      <h4>BELTS AND HOSES</h4>
+    </div>
+    <div class="col-md-3">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.CJBqZzSl6nmfklYGNFJdrgHaE8&pid=Api&P=0&h=180" alt="" height="180" width="320" style="filter: drop-shadow(5px 5px 5px black);"> <br><br>
+      <h4>LUBE, OIL AND FILTERS</h4>
+    </div>
+  </div>
+</div>
+ <!-- <br><br><button style="font-weight: lighter;margin-left: 500px; font-size:large;align-items:center;box-shadow:3px; background-color: #1A5CA2;color: white;">VIEW ALL SERVICES</button> -->
+ <br><br><br> <center><a href="http://127.0.0.1:5500/service.html"><button type="submit" class="btn btn-primary" style="height: 50px; width: 190px;background: #1E69B8;font-size: 14px;cursor: pointer;line-height: normal;letter-spacing: 1px; box-shadow: 2px 2px 2px black;">VIEW ALL</button></a></center>
+<br><br><br>
+ <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="5000">
+      <img src="https://quanticalabs.com/Carservice/Template/images/slider/image_01.jpg" class="d-block w-100" alt="shop1" >
+      <div class="carousel-caption">
+      <h3 id="caro" class="animated bounceInRight" style="font-style: italic;font-weight: lighter;margin-bottom: 100px;" > "I have taken several of the family cars here for the past several years and without exception the experiences have been outstanding. 
+        I would highly recommend this place to any one who wants great service, honest value, and really great people."  <br> <br><br>ROBERT SMITH</h3> 
+      <hr style="background-color: #F5F5F5;">
+   
+    </div>
+    </div>
+  </div></div>
+
+
+    <br><br><br>
+    <h2 style="text-align: center;">COMPANY OVERVIEW</h2>
+    <center><hr></center>
+
+    <p style="text-align: center;">We can help you with everything from an oil change to an engine change.
+     <br> We can handle any problem on both foreign and domestic vehicles.</p><br><br>
+<br><br><br>
+     <div class="container-fluid" style="background-color:#F5F5F5;">
+      <div class="row">
+        <div class="col-md-6">
+        <h5>OUR SERVICE</h5>
+          <hr> 
+          <div class="ratio ratio-16x9">
+        <video controls autoplay loop muted src="videoplayback.mp4" style="height: 90% ; width: 95%;"></video> 
+</div></div>
+<div class="col-md-6">
+<h5>POPULAR QUESTIONS</h5>
+<hr style="width: 6%;color: blue;">
+
+<table class="table table-bordered">
+  <tr><td>
+    
+    <p><i class="fa fa-arrow-circle-down" aria-hidden="true"></i> Should I consider using synthetic motor oil?</p>
+
+
+
+Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.
+  </td></tr>
+ <tr> <td>
+ <br> <p> <i class="fa fa-arrow-circle-down" aria-hidden="true"></i> What parts should be replaced at what intervals?</p>
+Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.
+  </td></tr>
+ <tr> <td>
+  <br> <p><i class="fa fa-arrow-circle-down" aria-hidden="true"></i> How do I keep track of routine maintenance?</p>
+Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.
+  </td></tr>
+</table>
+</div>
+</div>
+</div><br><br>
+<hr id="j">
+<br><br><br>
+<div class="container-fluid"  >
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-2">
+<img src="download 1.jpg" alt="" height="157" width="152">
+    </div>
+<div class="col-md-2">
+<img src="download 2.jpg" alt="" height="157" width="152">
+    </div>
+<div class="col-md-2">
+<img src="download 3.jpg" alt="" height="157" width="152">
+    </div>
+<div class="col-md-2">
+<img src="down;oad 4.jpg" alt="" height="157" width="152">
+    </div>
+<div class="col-md-2">
+<img src="download 5.jpg" alt="" height="157" width="152">
+    </div>
+
+  </div>
+
+</div>
+<br><br><br><br><br>
+<!-- Footer -->
+
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <div style="background-color: #c0c2c3;">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>JK Car Service Center
+          </h6>
+          <p>
+            A regular car service tracks the car's health, including general wear and tear to fluids, brakes, engines, and more, it can access everything. Depending on the make and model of your car, every service is different. A car service may involve up to 50 or more components, system controls and adjustments.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <i class="fa fa-check" aria-hidden="true"></i>Engine Diagnostics
+          </p>
+          <p>
+            <i class="fa fa-check" aria-hidden="true"></i> Lube, Oil and Filters
+          </p>
+          <p>
+            <i class="fa fa-check" aria-hidden="true"></i> Belts and Hoses
+          </p>
+          <p>
+            <i class="fa fa-check" aria-hidden="true"></i> Air Conditioning
+          </p>
+          <p>
+            <i class="fa fa-check" aria-hidden="true"></i> Brake Repair
+          </p>
+          
+          <p>
+            <i class="fa fa-check" aria-hidden="true"></i> Other Car Services
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            HOURS
+          </h6>
+          <p>
+            Monday : 7:30am - 5:30pm
+          </p>
+          <p>
+            Tuesday : 7:30am - 5:30pm
+          </p>
+          <p>
+            Wednesday : Closed
+          </p>
+          <p>
+            Thursday : 7:30am - 5:30pm
+          </p>
+          <p>
+            Friday : 7:30am - 5:30pm
+          </p><p>
+            Saturday : 7:30am - 5:30pm
+          </p>
+          
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="">janani5@.com</a>
+  </div>
+  <!-- Copyright --></div>
+</footer>
+</div>
+<!-- Footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+   
+
+            
+  </body>
+</html>
